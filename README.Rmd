@@ -1,4 +1,5 @@
 ---
+title: "Social Science R"
 output: github_document
 ---
 
@@ -18,7 +19,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of SocialScienceR is to ...
+The goal of SocialScienceR is to create a package that teaches social scientists who are not comfortable with coding how to use R for data analysis and visualization. 
 
 ## Installation
 
@@ -53,3 +54,8 @@ plot(pressure)
 ```
 
 In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
+
+## Contributors
+
+[Margot DV](https://github.com/margotdv04)
+[Esa Schenck](https://github.com/esaschenck)
