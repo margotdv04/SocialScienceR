@@ -6,7 +6,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of SocialScienceR is to …
+The goal of SocialScienceR is to ..
 
 ## Installation
 
