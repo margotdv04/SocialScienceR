@@ -60,5 +60,6 @@ files, so they display on GitHub and CRAN.
 
 ## Contributors
 
-[Margot Draillard-Vandenberg](https://github.com/margotdv04) [Esa
-Schenck](https://github.com/esaschenck)
+[Margot Draillard-Vandenberg](https://github.com/margotdv04)
+
+[Esa Schenck](https://github.com/esaschenck)
