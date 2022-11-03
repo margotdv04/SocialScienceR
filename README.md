@@ -1,3 +1,5 @@
+Social Science R
+================
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -6,7 +8,9 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of SocialScienceR is to ..
+The goal of SocialScienceR is to create a package that teaches social
+scientists who are not comfortable with coding how to use R for data
+analysis and visualization.
 
 ## Installation
 
@@ -53,3 +57,8 @@ You can also embed plots, for example:
 
 In that case, don’t forget to commit and push the resulting figure
 files, so they display on GitHub and CRAN.
+
+## Contributors
+
+[Margot Draillard-Vandenberg](https://github.com/margotdv04) [Esa
+Schenck](https://github.com/esaschenck)

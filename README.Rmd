@@ -57,5 +57,5 @@ In that case, don't forget to commit and push the resulting figure files, so the
 
 ## Contributors
 
-[Margot DV](https://github.com/margotdv04)
+[Margot Draillard-Vandenberg](https://github.com/margotdv04)
 [Esa Schenck](https://github.com/esaschenck)
