@@ -40,5 +40,5 @@ country_indicators <- country_indicators %>%
   filter(year <= 2010)
 
 
-#usethis::use_data(census_over_65, overwrite = TRUE)
+usethis::use_data(country_indicators, overwrite = TRUE)
 
