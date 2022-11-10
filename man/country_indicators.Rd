@@ -5,7 +5,7 @@
 \alias{country_indicators}
 \title{Data taken from Gapminder regarding the Human Development Indeces, Democracy Scores, and Happiness Scores of countries from 2004 to 2010.}
 \format{
-## `who`
+## `country_indicators`
 A data frame with 1414 rows and 5 columns:
 \describe{
   \item{country}{Country name}
