@@ -54,11 +54,16 @@ head(country_indicators)
 
 SocialScienceR also teaches users how to use basic R functions. Here's an example of the view_data() function, which teaches users how to view data loaded in the package in the console.
 
-<html>
-  <body>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/L7CdsK5cb5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </body>
-</html>
+<iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/L7CdsK5cb5E"
+    frameborder="0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen
+>
+</iframe>
+
 ## Proposed R Package
 
 Our proposed R package is what we have described above, a package that teaches social scientists how to use R. We plan to continue this project and expanding its breadth. 
