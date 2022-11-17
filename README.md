@@ -38,7 +38,6 @@ You can load SocialScienceR using the `library()` function.
 
 ``` r
 library(SocialScienceR)
-## basic example code
 ```
 
 SocialScienceR comes preloaded with data on democracy, human development
@@ -59,8 +58,12 @@ SocialScienceR also teaches users how to use basic R functions. Here’s
 an example of the view_data() function, which teaches users how to view
 data loaded in the package in the console.
 
+<html>
+<body>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/L7CdsK5cb5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
+</body>
+</html>
 
 ## Proposed R Package
 
