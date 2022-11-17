@@ -29,7 +29,7 @@ check_if_correct <- function(typed, correct){
 #'
 #' @examples
 see_data_console <- function(){
-  cat("Now you will learn to see the data! \n")
+  cat("Now you will learn to see the data!!! \n")
   readline(prompt = "Press enter to continue.")
   cat("First you need to view your data. The data 'country_indicators' is already loaded into the package, so to 'call' it, we write its name. Type the following: \n")
   cat("country_indicators")
