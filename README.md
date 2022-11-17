@@ -22,6 +22,16 @@ You can install the development version of SocialScienceR from
 devtools::install_github("margotdv04/SocialScienceR")
 ```
 
+## Purpose
+
+SocialScienceR is a package that will teach users how to use R for data
+analysis and visualization.
+
+## Target Audience
+
+The target audience for SocialScienceR are social scientists who are not
+comfortable with coding for data analysis.
+
 ## Example
 
 This is a basic example which shows you how to solve a common problem:
@@ -57,6 +67,12 @@ You can also embed plots, for example:
 
 In that case, don’t forget to commit and push the resulting figure
 files, so they display on GitHub and CRAN.
+
+## Proposed R Package
+
+Our proposed R package is what we have described above, a package that
+teaches social scientists how to use R. We plan to continue this project
+and expanding its breadth.
 
 ## Contributors
 
