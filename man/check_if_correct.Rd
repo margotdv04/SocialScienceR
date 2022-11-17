@@ -7,7 +7,9 @@
 check_if_correct(typed, correct)
 }
 \arguments{
-\item{correct}{}
+\item{typed}{input from user via console}
+
+\item{correct}{what we want the user to have typed}
 }
 \description{
 Check to see if the user input is correct
