@@ -58,7 +58,9 @@ SocialScienceR also teaches users how to use basic R functions. Here’s
 an example of the view_data() function, which teaches users how to view
 data loaded in the package in the console.
 
-<https://www.youtube.com/embed/L7CdsK5cb5E/0.jpg>
+![view_data_gif](view_data.gif) You can also view the demonstration
+video on YouTube
+[here](https://www.youtube.com/embed/L7CdsK5cb5E/0.jpg).
 
 ## Proposed R Package
 
