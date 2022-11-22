@@ -7,5 +7,10 @@
 load_dplyr()
 }
 \description{
-Load dplyr
+The function `load_dplyr` guides the user through the installation of `dplyr` (if neccessary) and loading the `dplyr` package.
+}
+\details{
+`load_dplyr` asks the user if they've ever loaded the `dplyr` package before, and if not, guides them through the installation.
+After `dplyr` has been installed, or if it has been loaded before,
+the user is taught how to load the package using `library()`.
 }

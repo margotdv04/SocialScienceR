@@ -1,9 +1,10 @@
 #' See Data In Console
 #'
-#' @return
+#' @return SocialScienceR::country_indicators
+#'
 #' @export
 #'
-#' @examples
+#' @examples see_data_console()
 see_data_console <- function(){
   cat("Now you will learn to see the data!!! \n")
   readline(prompt = "Press enter to continue.")

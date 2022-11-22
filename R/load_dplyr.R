@@ -1,10 +1,16 @@
 #' Load dplyr
 #'
-#' @return
+#' @description
+#' The function `load_dplyr` guides the user through the installation of `dplyr` (if neccessary) and loading the `dplyr` package.
+#'
+#' @details
+#' `load_dplyr` asks the user if they've ever loaded the `dplyr` package before, and if not, guides them through the installation.
+#' After `dplyr` has been installed, or if it has been loaded before,
+#' the user is taught how to load the package using `library()`.
+#'
 #' @import dplyr
 #' @export
 #'
-#' @examples
 load_dplyr <- function(){
   cat("The next step is to load a very important package called the 'dplyr' \n")
   cat("The dplyr package is crucial to using R for data.")

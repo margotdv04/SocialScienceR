@@ -1,10 +1,11 @@
 
 #' View() Data
 #'
-#' @return
+#' @return utils::View(SocialScienceR::country_indicators)
+#'
 #' @export
 #'
-#' @examples
+#' @examples view_data()
 view_data <- function(){
   cat("Now you will learn to view data using the tidyverse package! \n")
   n <- readline(prompt = "Press enter to continue.")

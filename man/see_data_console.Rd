@@ -6,6 +6,12 @@
 \usage{
 see_data_console()
 }
+\value{
+SocialScienceR::country_indicators
+}
 \description{
 See Data In Console
+}
+\examples{
+see_data_console()
 }

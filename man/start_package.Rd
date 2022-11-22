@@ -7,5 +7,12 @@
 start_package()
 }
 \description{
-Beginning Interface
+`start_package` begins the user interface and introduces the package.
+}
+\details{
+Ideally, the user should call `start_package` immediately upon loading the package,
+in order to begin using socialsciencer.
+While other functions can be called individually,
+this is the one which should be called first.
+There are no inputs or outputs.
 }

@@ -6,6 +6,12 @@
 \usage{
 view_data()
 }
+\value{
+utils::View(SocialScienceR::country_indicators)
+}
 \description{
 View() Data
+}
+\examples{
+view_data()
 }
