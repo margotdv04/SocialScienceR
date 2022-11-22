@@ -1,4 +1,3 @@
-
 #' Load dplyr
 #'
 #' @return
