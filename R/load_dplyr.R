@@ -32,6 +32,6 @@ library(dplyr)
 Now you try!")
   typed_load_dplyr <- as.character(readline())
   check_if_correct(typed_load_dplyr, "library(dplyr)")
-  library(dplyr)
+  #library(dplyr)
   cat("Now you've successfully loaded the dplyr package.")
 }

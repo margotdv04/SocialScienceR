@@ -7,6 +7,6 @@
 # * https://testthat.r-lib.org/reference/test_package.html#special-files
 
 library(testthat)
-library(SocialScienceR)
+library(socialsciencer)
 
-test_check("SocialScienceR")
+test_check("socialsciencer")

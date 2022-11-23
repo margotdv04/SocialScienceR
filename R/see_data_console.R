@@ -4,7 +4,6 @@
 #'
 #' @export
 #'
-#' @examples see_data_console()
 see_data_console <- function(){
   cat("Now you will learn to see the data!!! \n")
   readline(prompt = "Press enter to continue.")
@@ -13,5 +12,5 @@ see_data_console <- function(){
   typed_country_indicators <- as.character(readline())
   check_if_correct(typed_country_indicators, "country_indicators")
   readline(prompt = "Press enter to view the result.")
-  SocialScienceR::country_indicators
+  socialsciencer::country_indicators
 }
