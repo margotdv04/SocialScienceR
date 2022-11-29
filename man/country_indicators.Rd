@@ -3,7 +3,7 @@
 \docType{data}
 \name{country_indicators}
 \alias{country_indicators}
-\title{Data taken from Gapminder regarding the Human Development Indeces, Democracy Scores, and Happiness Scores of countries from 2004 to 2010.}
+\title{Data taken from Gapminder regarding the Human Development Indices, Democracy Scores, and Happiness Scores of countries from 2004 to 2010.}
 \format{
 `country_indicators`
 A data frame with 1414 rows and 5 columns:
@@ -17,12 +17,12 @@ A data frame with 1414 rows and 5 columns:
 }
 }
 \source{
-<https://www.gapminder.org/data/>
+[Gapminder Data](https://www.gapminder.org/data/)
 }
 \usage{
 country_indicators
 }
 \description{
-Data taken from Gapminder regarding the Human Development Indeces, Democracy Scores, and Happiness Scores of countries from 2004 to 2010.
+Data taken from Gapminder regarding the Human Development Indices, Democracy Scores, and Happiness Scores of countries from 2004 to 2010.
 }
 \keyword{datasets}
