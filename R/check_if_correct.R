@@ -1,7 +1,7 @@
 #' Check to see if the user input is correct.
 #'
 #' @description
-#' `check_if_correct` compares the parameter `typed` to the parameter `correct`.
+#' `check_if_correct()` compares the parameter `typed` to the parameter `correct`.
 #'
 #' @details
 #' If the parameter `typed` is identical to the parameter `correct`, the function ends and the user can continue.
@@ -14,6 +14,12 @@
 #' @param correct what we want the user to have typed
 #'
 #' @export
+#'
+#' @examples
+#' \dontrun{
+#' #Since x and y aren't equal, users should expect this to call check_if_correct() again.
+#' check_if_correct(x, y)
+#' }
 #'
 #'
 check_if_correct <- function(typed, correct){

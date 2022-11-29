@@ -12,12 +12,12 @@ check_if_correct(typed, correct)
 \item{correct}{what we want the user to have typed}
 }
 \description{
-`check_if_correct` compares the parameter `typed` to the parameter `correct`.
+\code{check_if_correct} compares the parameter \code{typed} to the parameter \code{correct}.
 }
 \details{
-If the parameter `typed` is identical to the parameter `correct`, the function ends and the user can continue.
-This causes the previous function (which called `check_if_correct`) to resume.
+If the parameter \code{typed} is identical to the parameter \code{correct}, the function ends and the user can continue.
+This causes the previous function (which called \code{check_if_correct}) to resume.
 However, if the parameters are different, the function asks the user to reenter the value.
-This calls the function again, to compare the new value, now the new `typed`, to the same `correct`.
-The function continues until `typed` is identical to `correct`.
+This calls the function again, to compare the new value, now the new \code{typed}, to the same \code{correct}.
+The function continues until \code{typed} is identical to \code{correct}.
 }
