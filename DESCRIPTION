@@ -1,11 +1,11 @@
 Package: socialsciencer
 Type: Package
-Title: What the Package Does (Title Case)
+Title: R Tutorial for Social Scientists
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: Margot Draillard-Vandenberg and Esa Schenck
+Maintainer: Margot, mdraillardvandenberg@smith.edu and Esa, eschenck69@smith.edu
+Description: socialsciencer is an R tutorial for social scientists which teaches them to use R for social science.
+    This package contains functions which walk users through basic data importing, cleaning, and analysing.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
