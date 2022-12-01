@@ -17,7 +17,7 @@ start_package <- function(){
   cat("Hello! Welcome to SocialScienceR - an R package that teaches YOU how to use R for social science purposes.\nWe will teach you basic data techniques and basic data visualization.\n")
   n <- as.integer(readline(prompt = "To learn how to load and view your data, type 1 and press enter to continue. If you would like to learn how to select particular columns and rows, type 2 and press enter to continue"))
   if(n == 1){
-    load_dplyr()
+    load_tidyverse()
   }
   else{
     print("Failure")

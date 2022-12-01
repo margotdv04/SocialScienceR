@@ -21,6 +21,7 @@ see_data_console <- function(){
 #'
 #' @return utils::View(SocialScienceR::country_indicators)
 #'
+#' @importFrom utils View
 #' @import dplyr
 #' @export
 #'
@@ -34,18 +35,19 @@ view_data <- function(){
   View(socialsciencer::country_indicators)
 }
 
-#' Load dplyr
+
+#' Load tidyverse
 #'
 #' @description
-#' The function `load_dplyr` guides the user through the installation of `dplyr` (if neccessary) and loading the `dplyr` package.
+#' The function `load_tidyverse` guides the user through the installation of `tidyverse` (if neccessary) and loading the `tidyverse` package.
 #'
-#' @details
-#' `load_dplyr` asks the user if they've ever loaded the `dplyr` package before, and if not, guides them through the installation.
-#' After `dplyr` has been installed, or if it has been loaded before,
+#'@details
+#`load_tidyverse` asks the user if they've ever loaded the `tidyverse` package before, and if not, guides them through the installation.
+#' After `tidyverse` has been installed, or if it has been loaded before,
 #' the user is taught how to load the package using `library()`.
 #'
-#' @import dplyr
 #' @export
+#'
 #'
 load_tidyverse <- function(){
   cat("The next step is to load a very important package called the 'tidyverse' \n")
@@ -69,8 +71,8 @@ Each time you restart R, you'll have to load dplyr again.
 To load dplyr, type:
 library(dplyr)
 Now you try!")
-  typed_load_dplyr <- as.character(readline())
-  check_if_correct(typed_load_dplyr, "library(dplyr)")
+  typed_load_tidyverse <- as.character(readline())
+  check_if_correct(typed_load_tidyverse, "library(dplyr)")
   #library(dplyr)
   cat("Now you've successfully loaded the dplyr package.")
 }
