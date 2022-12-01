@@ -1,7 +1,8 @@
-#' Data taken from Gapminder regarding the Human Development Indeces, Democracy Scores, and Happiness Scores of countries from 2004 to 2010.
+#' @title country_indicators data from Gapminder
 #'
+#' @description Data taken from Gapminder regarding the Human Development Indices, Democracy Scores, and Happiness Scores of countries from 2004 to 2010.
 #'
-#' @format ## `country_indicators`
+#' @format `country_indicators`
 #' A data frame with 1414 rows and 5 columns:
 #' \describe{
 #'   \item{country}{Country name}
@@ -11,5 +12,7 @@
 #'   \item{happiness}{National average of the perceived quality of life, with 0 as the "worst possible life" and 100 as the "best possible life." Data from the World Happiness Report of the Sustainable Development Solutions Network.}
 #'   ...
 #' }
-#' @source <https://www.gapminder.org/data/>
+#' @source [Gapminder Data](https://www.gapminder.org/data/)
 "country_indicators"
+
+
