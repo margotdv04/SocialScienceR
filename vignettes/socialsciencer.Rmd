@@ -1,5 +1,6 @@
 ---
 title: "socialsciencer"
+author: "Margot Draillard-Vandenberg and Esa Schenck"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{socialsciencer}
@@ -18,4 +19,50 @@ knitr::opts_chunk$set(
 library(socialsciencer)
 ```
 
-hello~
+The goal of socialsciencer is to create a package that teaches social scientists who are not comfortable with coding how to use R for data analysis and visualization.
+
+## Purpose
+
+socialsciencer is a package that will teach users how to use R for data analysis and visualization. The target audience is social scientists who are not comfortable with (or have never been exposed to) coding with R. However, anyone who wants to learn to use R for data analysis with a hands-on approach can benefit from this package.
+
+## Inspiration
+
+We both study social sciences (government and sociology, respectively) in addition to data science, and have noticed the difficulties that many social scientists have with coding. R is a useful tool for data analysis, and we believe that it can benefit social scientists in their work. To that end, we want to teach social scientists to use R in a hands-on manner, with examples and data relevant to their fields.
+
+## Included Data
+
+All data are taken from Gapminder.
+
+-   `country_indicators`: dataset of Democracy, Human Development Index, and Happiness for 202 countries from 2004 t0 2010.
+
+## Functions
+
+The `socialsciencer` package contains the functions:
+
+-   `check_if_correct()`: internal function which checks to see if two parameters, `typed` and `correct`, are equal.
+
+-   `start_package()`: recommended first function, which gives users information about using the package.
+
+-   `see_data_console()`: teaches users the most basic function for viewing their data.
+
+-   `load_tidyverse()`: teaches users how to load the `tidyverse` package, an incredibly useful package for R.
+
+-   `view_data()`: teaches users to view their data using the `view()` function from the tidyverse package.
+
+## Recommended Use
+
+We recommend that users begin with the `start_package()` function, which contains information on loading and using the package.
+
+From there, each function can be used alone, but is recommended in this order:
+
+1.  `see_data_console()`
+
+2.  `load_tidyverse()`
+
+3.  `view_data()`
+
+## Contributors
+
+[Margot Draillard-Vandenberg](https://github.com/margotdv04)
+
+[Esa Schenck](https://github.com/esaschenck)
