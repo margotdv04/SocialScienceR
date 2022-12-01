@@ -17,9 +17,10 @@ knitr::opts_chunk$set(
 # socialsciencer
 
 <!-- badges: start -->
+
 <!-- badges: end -->
 
-The goal of socialsciencer is to create a package that teaches social scientists who are not comfortable with coding how to use R for data analysis and visualization. 
+The goal of socialsciencer is to create a package that teaches social scientists who are not comfortable with coding how to use R for data analysis and visualization.
 
 ## Purpose
 
@@ -41,6 +42,7 @@ remotes::install_github("margotdv04/SocialScienceR")
 ## Example
 
 You can load socialsciencer using the `library()` function.
+
 ```{r example}
 library(socialsciencer)
 ```
@@ -54,15 +56,15 @@ head(country_indicators)
 socialsciencer also teaches users how to use basic R functions. Here's an example of the view_data() function, which teaches users how to view data loaded in the package in the console.
 
 ![Gif demonstrating the use of the view_data function in social science r.](images/view_data.gif)
+
 You can also view the demonstration video on YouTube [here](https://www.youtube.com/embed/L7CdsK5cb5E/0.jpg).
 
 ## Proposed R Package
 
-Our proposed R package is what we have described above, a package that teaches social scientists how to use R. We plan to continue this project and expanding its breadth. 
+Our proposed R package is what we have described above, a package that teaches social scientists how to use R. We plan to continue this project and expanding its breadth.
 
 ## Contributors
 
 [Margot Draillard-Vandenberg](https://github.com/margotdv04)
-
 
 [Esa Schenck](https://github.com/esaschenck)
