@@ -3,7 +3,7 @@
 \docType{data}
 \name{country_indicators}
 \alias{country_indicators}
-\title{Data taken from Gapminder regarding the Human Development Indices, Democracy Scores, and Happiness Scores of countries from 2004 to 2010.}
+\title{country_indicators data from Gapminder}
 \format{
 \code{country_indicators}
 A data frame with 1414 rows and 5 columns:
@@ -17,11 +17,7 @@ A data frame with 1414 rows and 5 columns:
 }
 }
 \source{
-<<<<<<< HEAD
-[Gapminder Data](https://www.gapminder.org/data/)
-=======
-\url{https://www.gapminder.org/data/}
->>>>>>> 74ac80823b32983010bb755ec009c9cfaf0bb068
+\href{https://www.gapminder.org/data/}{Gapminder Data}
 }
 \usage{
 country_indicators
