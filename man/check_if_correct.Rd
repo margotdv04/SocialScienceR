@@ -12,7 +12,7 @@ check_if_correct(typed, correct)
 \item{correct}{what we want the user to have typed}
 }
 \description{
-\code{check_if_correct} compares the parameter \code{typed} to the parameter \code{correct}.
+\code{check_if_correct()} compares the parameter \code{typed} to the parameter \code{correct}.
 }
 \details{
 If the parameter \code{typed} is identical to the parameter \code{correct}, the function ends and the user can continue.
@@ -20,4 +20,12 @@ This causes the previous function (which called \code{check_if_correct}) to resu
 However, if the parameters are different, the function asks the user to reenter the value.
 This calls the function again, to compare the new value, now the new \code{typed}, to the same \code{correct}.
 The function continues until \code{typed} is identical to \code{correct}.
+}
+\examples{
+\dontrun{
+#Since x and y aren't equal, users should expect this to call check_if_correct() again.
+check_if_correct(x, y)
+}
+
+
 }
