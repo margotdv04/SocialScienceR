@@ -57,6 +57,7 @@ load_tidyverse <- function(){
   cat("Have you ever installed tidyverse? If so, type '1' and hit enter. If you've never installed tidyverse, type '2' and hit enter.")
   need_to_install <- as.integer(readline())
   if(need_to_install == 2){
+    cat("You will need to type 'install.packages(tidyverse)'")
     cat("Type: \n")
     cat("install.packages(\"dplyr\")")
    # typed_install_tidyverse <- as.character(readline())
