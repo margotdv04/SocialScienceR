@@ -20,7 +20,7 @@ start_package <- function(){
     load_tidyverse()
   }
   else{
-    print("Failure")
+    select_column()
   }
 }
 

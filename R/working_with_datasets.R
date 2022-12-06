@@ -1,4 +1,4 @@
-globalVariables("hdi")
+globalVariables(c("hdi", "country_indicators")
 #' Select Column
 #'
 #'@description
@@ -14,7 +14,7 @@ select_column <- function(){
   cat("The country_indicators package has five columns. Let's see only one column, hdi, which displays a country's human development index. Type: \n")
   cat("country_indicators %>% select(hdi)")
   typed_select <- as.character(readline())
-  check_if_correct(typed_select, "country_indicators %>% select(hdi")
+  check_if_correct(typed_select, "country_indicators %>% select(hdi)")
   readline(prompt = "Press enter to view the result.")
-  SocialScienceR::country_indicators %>% dplyr::select(hdi)
+  country_indicators %>% dplyr::select(hdi)
 }
