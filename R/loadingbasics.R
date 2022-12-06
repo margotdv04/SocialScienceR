@@ -57,24 +57,24 @@ load_tidyverse <- function(){
   cat("Have you ever installed tidyverse? If so, type '1' and hit enter. If you've never installed tidyverse, type '2' and hit enter.")
   need_to_install <- as.integer(readline())
   if(need_to_install == 2){
-    cat("You will need to type 'install.packages(tidyverse)'")
-    cat("Type: \n")
-    cat("install.packages(\"dplyr\")")
-   # typed_install_tidyverse <- as.character(readline())
-    #check_if_correct(typed_install_tidyverse, "install.packages(\"dplyr\")")
-   # utils::install.packages("dplyr")
+    cat("You will need to type 'install.packages(tidyverse)'. If you are successful, there will be red text that displays the contet type and how many KB of data were downloaded. Then type 1 and press enter when you have correctly loaded tidyverse")
+    next_step <- as.character(readline())
+    if (next_step == 1){
+      cat("Even though we have tidyverse installed, we still need to load it.
+      Each time you restart R, you'll have to load tidyverse again.
+      To load dplyr, type:
+      library(tidyverse)
+      Now you try!")
+      typed_load_tidyverse <- as.character(readline())
+      check_if_correct(typed_load_tidyverse, "library(\"tidyverse\")")
+      library(tidyverse)
+      cat("Now you've successfully loaded the dplyr package.")
+      see_data_console()
+    }
   }
   else{
     see_data_console()
   }
-  cat("Even though we have dplyr installed, we still need to load it.
-Each time you restart R, you'll have to load dplyr again.
-To load dplyr, type:
-library(dplyr)
-Now you try!")
-  typed_load_tidyverse <- as.character(readline())
-  check_if_correct(typed_load_tidyverse, "library(dplyr)")
-  #library(dplyr)
-  cat("Now you've successfully loaded the dplyr package.")
+
 }
 
