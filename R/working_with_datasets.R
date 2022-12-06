@@ -1,3 +1,4 @@
+globalVariables("hdi")
 #' Select Column
 #'
 #'@description
