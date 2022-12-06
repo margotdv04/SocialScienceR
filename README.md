@@ -42,6 +42,8 @@ You can load socialsciencer using the `library()` function.
 library(socialsciencer)
 ```
 
+You can start using socialsciencer with the `start_package()` function.
+
 socialsciencer comes preloaded with data on democracy, human development
 index, and happiness worldwide.
 

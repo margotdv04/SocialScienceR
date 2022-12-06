@@ -1,6 +1,11 @@
+globalVariables("country_indicators")
 #' See Data In Console
 #'
-#' @return SocialScienceR::country_indicators
+#'@description
+#'`see_data_console` teaches the user how to view their data in the console.
+#'
+#'
+#' @return country_indicators
 #'
 #' @export
 #'
@@ -12,12 +17,16 @@ see_data_console <- function(){
   typed_country_indicators <- as.character(readline())
   check_if_correct(typed_country_indicators, "country_indicators")
   readline(prompt = "Press enter to view the result.")
-  socialsciencer::country_indicators
+  country_indicators
 
 }
 
 
 #' View() Data
+#'
+#' @description
+#'
+#'`view_data` teaches the user how to see data using the View() function.
 #'
 #' @return utils::View(SocialScienceR::country_indicators)
 #'
@@ -32,7 +41,7 @@ view_data <- function(){
   cat("View(country_indicators)")
   typed_country_indicators <- as.character(readline())
   check_if_correct(typed_country_indicators, "view(country_indicators)")
-  View(socialsciencer::country_indicators)
+  View(country_indicators)
 }
 
 

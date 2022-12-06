@@ -1,4 +1,4 @@
-globalVariables(c("hdi", "country_indicators")
+globalVariables(c("hdi", "country_indicators"))
 #' Select Column
 #'
 #'@description
