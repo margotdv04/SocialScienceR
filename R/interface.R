@@ -20,7 +20,7 @@ start_package <- function(){
     load_dplyr()
   }
   else{
-    print("Failure")
+    select_column()
   }
 }
 

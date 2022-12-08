@@ -3,6 +3,8 @@
 export(check_if_correct)
 export(load_tidyverse)
 export(see_data_console)
+export(select_column)
 export(start_package)
 export(view_data)
 import(dplyr)
+importFrom(utils,View)

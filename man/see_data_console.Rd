@@ -7,8 +7,8 @@
 see_data_console()
 }
 \value{
-SocialScienceR::country_indicators
+country_indicators
 }
 \description{
-See Data In Console
+\code{see_data_console} teaches the user how to view their data in the console.
 }

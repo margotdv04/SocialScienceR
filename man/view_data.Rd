@@ -10,5 +10,5 @@ view_data()
 utils::View(SocialScienceR::country_indicators)
 }
 \description{
-View() Data
+\code{view_data} teaches the user how to see data using the View() function.
 }
