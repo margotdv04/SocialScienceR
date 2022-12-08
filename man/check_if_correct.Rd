@@ -26,6 +26,7 @@ The function continues until \code{typed} is identical to \code{correct}.
 #Since x and y aren't equal, users should expect this to call check_if_correct() again.
 check_if_correct(x, y)
 }
+check_if_correct(x, x)
 
 
 }
