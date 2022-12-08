@@ -12,3 +12,7 @@ country_indicators
 \description{
 \code{see_data_console} teaches the user how to view their data in the console.
 }
+\examples{
+see_data_console()
+
+}
