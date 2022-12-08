@@ -44,6 +44,10 @@ library(socialsciencer)
 
 You can start using socialsciencer with the `start_package()` function.
 
+``` r
+start_package()
+```
+
 socialsciencer comes preloaded with data on democracy, human development
 index, and happiness worldwide.
 
