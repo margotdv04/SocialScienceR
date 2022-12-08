@@ -8,6 +8,7 @@ globalVariables(c("hdi", "country_indicators"))
 #' @export
 #'
 #' @examples
+#' select_column()
 select_column <- function(){
   cat("Now that you've seen the data using view(), you'll learn how to process it a little more. \n")
   readline(prompt = "Press enter to continue.")

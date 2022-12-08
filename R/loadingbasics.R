@@ -9,6 +9,9 @@ globalVariables("country_indicators")
 #'
 #' @export
 #'
+#' @examples
+#' see_data_console()
+#'
 see_data_console <- function(){
   cat("Now you will learn to see the data!!! \n")
   readline(prompt = "Press enter to continue.")
@@ -34,6 +37,9 @@ see_data_console <- function(){
 #' @import dplyr
 #' @export
 #'
+#' @examples
+#' view_data()
+#'
 view_data <- function(){
   cat("Now you will learn to view data using the dplyr package! \n")
   n <- readline(prompt = "Press enter to continue.")
@@ -57,6 +63,8 @@ view_data <- function(){
 #' @export
 #'
 #' @examples
+#' load_dplyr()
+#'
 load_dplyr <- function(){
   cat("The next step is to load a very important package called 'dplyr' \n")
   cat("The dplyr package is crucial to using R for data.")
