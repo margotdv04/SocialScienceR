@@ -12,3 +12,11 @@ country_indicators
 \description{
 \code{see_data_console} teaches the user how to view their data in the console.
 }
+\examples{
+\dontrun{
+#see_data_console will run in the console, where user input is needed.
+see_data_console()
+}
+
+
+}

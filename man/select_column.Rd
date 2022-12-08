@@ -9,3 +9,6 @@ select_column()
 \description{
 The function \code{select_column} shows the user how to select particular columns using the select() function.
 }
+\examples{
+select_column()
+}
