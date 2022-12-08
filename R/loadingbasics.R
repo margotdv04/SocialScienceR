@@ -70,28 +70,18 @@ load_dplyr <- function(){
   cat("The dplyr package is crucial to using R for data.")
   readline(prompt = "Press enter to continue.")
   cat("If you've never used dplyr before, you need to install it. ")
-  cat("Have you ever installed dplyr? If so, type '1' and hit enter. If you've never installed dplyr, type '2' and hit enter.")
-  need_to_install <- as.integer(readline())
-  if(need_to_install == 2){
-    cat("You will need to type 'install.packages(dplyr)'. If you are successful, there will be red text that displays the contet type and how many KB of data were downloaded. Then type 1 and press enter when you have correctly loaded tidyverse")
-    next_step <- as.character(readline())
-    if (next_step == 1){
-      cat("Even though we have dplyr installed, we still need to load it.
+  cat("To install, you will need to type 'install.packages(\"dplyr\")'. Try that now:")
+  type_install_dplyr <- as.character(readline())
+  check_if_correct(type_install_dplyr, "install.packages(\"dplyr\")")
+  cat("Even though we now have dplyr installed, we still need to load it.
       Each time you restart R, you'll have to load dplyr again.
       To load dplyr, type:
       library(dplyr)
       Now you try!")
-      typed_load_dplyr <- as.character(readline())
-      check_if_correct(typed_load_dplyr, "library(\"dplyr\")")
-      library(dplyr)
-      cat("Now you've successfully loaded the dplyr package.")
-      see_data_console()
-    }
-  }
-  else{
-    see_data_console()
-  }
-
+  typed_library_dplyr <- as.character(readline())
+  check_if_correct(typed_library_dplyr, "library(dplyr)")
+  cat("Now you've successfully loaded the dplyr package.")
+  see_data_console()
 }
 
 

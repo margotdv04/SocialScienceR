@@ -46,6 +46,8 @@ You can load socialsciencer using the `library()` function.
 
 ```{r example}
 library(socialsciencer)
+
+start_package()
 ```
 
 You can start using socialsciencer with the `start_package()` function. 
