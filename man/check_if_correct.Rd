@@ -22,11 +22,11 @@ This calls the function again, to compare the new value, now the new \code{typed
 The function continues until \code{typed} is identical to \code{correct}.
 }
 \examples{
+check_if_correct(x, x)
 \dontrun{
 #Since x and y aren't equal, users should expect this to call check_if_correct() again.
 check_if_correct(x, y)
 }
-check_if_correct(x, x)
 
 
 }

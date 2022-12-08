@@ -16,3 +16,7 @@ While other functions can be called individually,
 this is the one which should be called first.
 There are no inputs or outputs.
 }
+\examples{
+start_package()
+
+}
