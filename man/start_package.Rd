@@ -17,6 +17,8 @@ this is the one which should be called first.
 There are no inputs or outputs.
 }
 \examples{
+\dontrun{
+#start_package() will ask for user input in the console, and loop without that input.
 start_package()
-
+}
 }

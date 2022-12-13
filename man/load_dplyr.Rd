@@ -7,14 +7,17 @@
 load_dplyr()
 }
 \description{
-The function \code{load_dplyr} guides the user through the installation of \code{dplyr} (if neccessary) and loading the \code{dplyr} package.
+The function \code{load_dplyr} guides the user through the installation of \code{dplyr}  and loading the \code{dplyr} package.
 }
 \details{
-\code{load_dplyr} asks the user if they've ever loaded the \code{dplyr} package before, and if not, guides them through the installation.
-After \code{dplyr} has been installed, or if it has been loaded before,
+\code{load_dplyr} guides users through the installation of dplyr using the \code{install.packages()} function.
+After \code{dplyr} has been installed,
 the user is taught how to load the package using \code{library()}.
 }
 \examples{
+\dontrun{
+#load_dplyr() will ask for user input in the console, and loop without that input.
 load_dplyr()
+}
 
 }

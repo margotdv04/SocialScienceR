@@ -13,6 +13,10 @@ country_indicators
 \code{see_data_console} teaches the user how to view their data in the console.
 }
 \examples{
+\dontrun{
+#see_data_console will ask for user input in the console, and loop without that input.
 see_data_console()
+}
+
 
 }

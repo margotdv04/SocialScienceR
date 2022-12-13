@@ -10,7 +10,11 @@ globalVariables("country_indicators")
 #' @export
 #'
 #' @examples
+#' \dontrun{
+#' #see_data_console will ask for user input in the console, and loop without that input.
 #' see_data_console()
+#' }
+#'
 #'
 see_data_console <- function(){
   cat("Now you will learn to see the data!!! \n")
@@ -38,7 +42,11 @@ see_data_console <- function(){
 #' @export
 #'
 #' @examples
+#' @examples
+#' \dontrun{
+#' #view_data will ask for user input in the console, and loop without that input.
 #' view_data()
+#' }
 #'
 view_data <- function(){
   cat("Now you will learn to view data using the dplyr package! \n")
@@ -53,17 +61,20 @@ view_data <- function(){
 #' Load dplyr
 #'
 #' @description
-#' The function `load_dplyr` guides the user through the installation of `dplyr` (if neccessary) and loading the `dplyr` package.
+#' The function `load_dplyr` guides the user through the installation of `dplyr`  and loading the `dplyr` package.
 #'
 #' @details
-#' `load_dplyr` asks the user if they've ever loaded the `dplyr` package before, and if not, guides them through the installation.
-#' After `dplyr` has been installed, or if it has been loaded before,
+#' `load_dplyr` guides users through the installation of dplyr using the `install.packages()` function.
+#' After `dplyr` has been installed,
 #' the user is taught how to load the package using `library()`.
 #'
 #' @export
 #'
 #' @examples
+#' \dontrun{
+#' #load_dplyr() will ask for user input in the console, and loop without that input.
 #' load_dplyr()
+#' }
 #'
 load_dplyr <- function(){
   cat("The next step is to load a very important package called 'dplyr' \n")
