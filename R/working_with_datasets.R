@@ -4,7 +4,6 @@ globalVariables(c("hdi", "country_indicators", "Afghanistan"))
 #'@description
 #' The function `select_column` shows the user how to select particular columns using the select() function.
 #'
-#' @return
 #' @export
 #'
 #' @examples
