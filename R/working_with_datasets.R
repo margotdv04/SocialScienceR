@@ -1,4 +1,4 @@
-globalVariables(c("hdi", "country_indicators"))
+globalVariables(c("hdi", "country_indicators", "Afghanistan"))
 #' Select Column
 #'
 #'@description
@@ -18,4 +18,21 @@ select_column <- function(){
   check_if_correct(typed_select, "country_indicators %>% select(hdi)")
   readline(prompt = "Press enter to view the result.")
   country_indicators %>% dplyr::select(hdi)
+  filter_row()
 }
+
+filter_row <- function(){
+  cat("We will now look at how to filter() rows. It is quite similar to select columns. This is very helpful; for example, with the country_indicators dataset we can look at data for one country. Type: \n")
+  cat("country_indicators %>% filter(country == \"Afghanistan\")")
+  typed_filter1 <- as.character(readline())
+  check_if_correct(typed_filter1, "country_indicators %>% filter(country == \"Afghanistan\")")
+  readline(prompt = "Press enter to view the result.")
+  country_indicators %>% dplyr::filter(country == "Afghanistan")
+  cat("As you can see, there are a number of years of data for Afghanistan. If you want to look at one singular year for a particular country, you can do that as well. Type: \n")
+  cat("country_indicators %>% filter(country == \"Afghanistan\", year == \"2004\")")
+  typed_filter2 <- as.character(readline())
+  check_if_correct(typed_filter2, "country_indicators %>% filter(country == \"Afghanistan\", year == \"2004\")")
+  readline(prompt = "Press enter to view the result.")
+  country_indicators %>% dplyr::filter(country == "Afghanistan", year == "2004")
+}
+

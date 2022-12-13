@@ -15,9 +15,13 @@ After \code{dplyr} has been installed,
 the user is taught how to load the package using \code{library()}.
 }
 \examples{
+<<<<<<< HEAD
 \dontrun{
 #load_dplyr() will run in the console, where user input is needed.
 load_dplyr()
 }
+=======
+load_dplyr()
+>>>>>>> daa27e4ed1021f95abd38b4a4218b00f853ca766
 
 }

@@ -13,9 +13,13 @@ utils::View(SocialScienceR::country_indicators)
 \code{view_data} teaches the user how to see data using the View() function.
 }
 \examples{
+<<<<<<< HEAD
 \dontrun{
 #view_data will run in the console, where user input is needed.
 view_data()
 }
+=======
+view_data()
+>>>>>>> daa27e4ed1021f95abd38b4a4218b00f853ca766
 
 }
