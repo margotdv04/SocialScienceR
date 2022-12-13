@@ -16,10 +16,10 @@
 #' @export
 #'
 #' @examples
-#' check_if_correct(x, x)
+#' check_if_correct("x", "x")
 #' \dontrun{
-#' #Since x and y aren't equal, users should expect this to call check_if_correct() again.
-#' check_if_correct(x, y)
+#' #Since "x" and "y" aren't equal, users should expect this to call check_if_correct() again.
+#' check_if_correct("x", "y")
 #' }
 #'
 #'

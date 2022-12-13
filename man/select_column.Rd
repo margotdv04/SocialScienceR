@@ -10,5 +10,8 @@ select_column()
 The function \code{select_column} shows the user how to select particular columns using the select() function.
 }
 \examples{
+\dontrun{
+#select_column() will ask for user input in the console, and loop without that input.
 select_column()
+}
 }

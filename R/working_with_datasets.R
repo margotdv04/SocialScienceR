@@ -1,4 +1,4 @@
-globalVariables(c("hdi", "country_indicators", "Afghanistan"))
+globalVariables(c("hdi", "country_indicators", "Afghanistan", "country", "year"))
 #' Select Column
 #'
 #'@description
@@ -8,7 +8,10 @@ globalVariables(c("hdi", "country_indicators", "Afghanistan"))
 #' @export
 #'
 #' @examples
+#' \dontrun{
+#' #select_column() will ask for user input in the console, and loop without that input.
 #' select_column()
+#' }
 select_column <- function(){
   cat("Now that you've seen the data using view(), you'll learn how to process it a little more. \n")
   readline(prompt = "Press enter to continue.")
@@ -21,6 +24,16 @@ select_column <- function(){
   filter_row()
 }
 
+#' Title
+#'
+#' @return
+#' @export
+#'
+#' @examples
+#' \dontrun{
+#' #filter_row() will ask for user input in the console, and loop without that input.
+#' filter_row()
+#' }
 filter_row <- function(){
   cat("We will now look at how to filter() rows. It is quite similar to select columns. This is very helpful; for example, with the country_indicators dataset we can look at data for one country. Type: \n")
   cat("country_indicators %>% filter(country == \"Afghanistan\")")

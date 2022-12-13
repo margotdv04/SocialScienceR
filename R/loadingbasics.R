@@ -11,7 +11,7 @@ globalVariables("country_indicators")
 #'
 #' @examples
 #' \dontrun{
-#' #see_data_console will run in the console, where user input is needed.
+#' #see_data_console will ask for user input in the console, and loop without that input.
 #' see_data_console()
 #' }
 #'
@@ -44,7 +44,7 @@ see_data_console <- function(){
 #' @examples
 #' @examples
 #' \dontrun{
-#' #view_data will run in the console, where user input is needed.
+#' #view_data will ask for user input in the console, and loop without that input.
 #' view_data()
 #' }
 #'
@@ -72,7 +72,7 @@ view_data <- function(){
 #'
 #' @examples
 #' \dontrun{
-#' #load_dplyr() will run in the console, where user input is needed.
+#' #load_dplyr() will ask for user input in the console, and loop without that input.
 #' load_dplyr()
 #' }
 #'
