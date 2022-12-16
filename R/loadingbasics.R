@@ -23,9 +23,8 @@ see_data_console <- function(){
   cat("country_indicators")
   typed_country_indicators <- as.character(readline())
   check_if_correct(typed_country_indicators, "country_indicators")
-  readline(prompt = "Press enter to view the result.")
+  readline(prompt = "Press enter to view the result. After you have viewed the result, please type view_data() and press enter to go onto the next step")
   country_indicators
-  view_data()
 }
 
 
@@ -54,7 +53,7 @@ view_data <- function(){
   cat("First you need to view your data. You can simply write country_indicators; however, you can also view the data more conveniently, similarly to a spreadsheet. To do this, there's a command called view(). In the parentheses you will write the name of the dataset, which in this case is country_indicators. Type the following: \n")
   cat("View(country_indicators)")
   typed_country_indicators <- as.character(readline())
-  check_if_correct(typed_country_indicators, "view(country_indicators)")
+  check_if_correct(typed_country_indicators, "View(country_indicators)")
   View(country_indicators)
   select_column()
 }

@@ -18,7 +18,7 @@ select_column <- function(){
   cat("country_indicators %>% select(hdi)")
   typed_select <- as.character(readline())
   check_if_correct(typed_select, "country_indicators %>% select(hdi)")
-  readline(prompt = "Press enter to view the result.")
+  user_input <- readline(prompt = "Type 1 and press enter to view the result.")
   country_indicators %>% dplyr::select(hdi)
   filter_row()
 }
@@ -42,12 +42,12 @@ filter_row <- function(){
   check_if_correct(typed_filter1, "country_indicators %>% filter(country == \"Afghanistan\")")
   readline(prompt = "Press enter to view the result.")
   country_indicators %>% dplyr::filter(country == "Afghanistan")
-  cat("As you can see, there are a number of years of data for Afghanistan. If you want to look at one singular year for a particular country, you can do that as well. Type: \n")
-  cat("country_indicators %>% filter(country == \"Afghanistan\", year == \"2004\")")
-  typed_filter2 <- as.character(readline())
-  check_if_correct(typed_filter2, "country_indicators %>% filter(country == \"Afghanistan\", year == \"2004\")")
-  readline(prompt = "Press enter to view the result.")
-  country_indicators %>% dplyr::filter(country == "Afghanistan", year == "2004")
-  downloading_ggplot2()
+  # cat("As you can see, there are a number of years of data for Afghanistan. If you want to look at one singular year for a particular country, you can do that as well. Type: \n")
+  # cat("country_indicators %>% filter(country == \"Afghanistan\", year == \"2004\")")
+  # typed_filter2 <- as.character(readline())
+  # check_if_correct(typed_filter2, "country_indicators %>% filter(country == \"Afghanistan\", year == \"2004\")")
+  # readline(prompt = "Press enter to view the result.")
+  # country_indicators %>% dplyr::filter(country == "Afghanistan", year == "2004")
+  # downloading_ggplot2()
 }
 
