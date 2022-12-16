@@ -41,7 +41,7 @@ see_data_console <- function(){
 #' @import dplyr
 #' @export
 #'
-#' @examples
+#
 #' @examples
 #' \dontrun{
 #' #view_data will ask for user input in the console, and loop without that input.

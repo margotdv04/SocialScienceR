@@ -23,9 +23,11 @@ select_column <- function(){
   filter_row()
 }
 
-#' Title
+#' Filter Row
 #'
-#' @return
+#' @description
+#' The function `filter_row` shows the user how to select filter rows using the filter() function.
+#'
 #' @export
 #'
 #' @examples

@@ -2,12 +2,12 @@
 % Please edit documentation in R/working_with_datasets.R
 \name{filter_row}
 \alias{filter_row}
-\title{Title}
+\title{Filter Row}
 \usage{
 filter_row()
 }
 \description{
-Title
+The function \code{filter_row} shows the user how to select filter rows using the filter() function.
 }
 \examples{
 \dontrun{

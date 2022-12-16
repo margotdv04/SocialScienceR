@@ -28,6 +28,7 @@ downloading_ggplot2 <- function(){
 #' This function teaches the user how to do a basic graph with `ggplot2`. It teaches them that they need to input data, and input what will be the x and y axis
 #' for a scatterplot.
 #'
+#' @import ggplot2
 #' @export
 #'
 #' @examples
