@@ -25,7 +25,7 @@ see_data_console <- function(){
   check_if_correct(typed_country_indicators, "country_indicators")
   readline(prompt = "Press enter to view the result.")
   country_indicators
-
+  view_data()
 }
 
 
@@ -56,6 +56,7 @@ view_data <- function(){
   typed_country_indicators <- as.character(readline())
   check_if_correct(typed_country_indicators, "view(country_indicators)")
   View(country_indicators)
+  select_column()
 }
 
 #' Load dplyr

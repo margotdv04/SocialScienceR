@@ -46,5 +46,6 @@ filter_row <- function(){
   check_if_correct(typed_filter2, "country_indicators %>% filter(country == \"Afghanistan\", year == \"2004\")")
   readline(prompt = "Press enter to view the result.")
   country_indicators %>% dplyr::filter(country == "Afghanistan", year == "2004")
+  downloading_ggplot2()
 }
 
