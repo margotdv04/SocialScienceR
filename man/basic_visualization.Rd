@@ -11,5 +11,8 @@ This function teaches the user how to do a basic graph with \code{ggplot2}. It t
 for a scatterplot.
 }
 \examples{
+\dontrun{
+#basic_visualization will ask for user input in the console, and loop without that input.
 basic_visualization()
+}
 }
