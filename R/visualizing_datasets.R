@@ -46,8 +46,7 @@ basic_visualization <- function(){
   cat("Great! Now let's look at how to graph this. This format is as so: \n")
   cat("ggplot(data = country_indicators1, aes(x = year, y = hdi)) + geom_point() \n")
   cat("The x and y variables need to go inside this \"aes\" parentheses. The addition of geom_point() designates the graph as a scatterplot \n")
-  cat("Try it out yourself: \n")
+  readline(prompt = "Try it out yourself: \n")
   country_indicators %>% filter(country == "Afghanistan") %>% ggplot2::ggplot(aes(x = year, y = hdi)) + geom_point()
-  cat("Yay it worked - you're doing great!")
 }
 
