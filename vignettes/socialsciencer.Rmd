@@ -45,9 +45,17 @@ The `socialsciencer` package contains the functions:
 
 -   `see_data_console()`: teaches users the most basic function for viewing their data.
 
--   `load_tidyverse()`: teaches users how to load the `tidyverse` package, an incredibly useful package for R.
+-   `load_dplyr()`: teaches users how to load the `dplyr` package, an incredibly useful package for R.
 
 -   `view_data()`: teaches users to view their data using the `view()` function from the tidyverse package.
+
+-   `select_column()`: teaches user how to select particular columns in the data set using `select()`. 
+
+-   `filter_row()`: teaches user how to select particular rows in teh data set using `filter`(). 
+
+-   `downloading_ggplot2()`: teaches user how to download the `ggplot2` package that will be used in subsequent data visualization.
+
+-   `basic_visualization()`: teaches user how to create a basic scatter plot using `ggplot2`. 
 
 ## Recommended Use
 
