@@ -6,7 +6,10 @@
 #' @export
 #'
 #' @examples
+#' \dontrun{
+#' #downloading_ggplot2 will ask for user input in the console, and loop without that input.
 #' downloading_ggplot2()
+#' }
 downloading_ggplot2 <- function(){
   cat("Now that you know how to work with data, you will learn how to visualize it. RStudio uses the package `ggplot2` to easily visualize data. You will need to download and load this package. Just like with dplyr, to download it you will type the following: \n")
   cat("install.packages(\"ggplot2\")")
@@ -28,7 +31,10 @@ downloading_ggplot2 <- function(){
 #' @export
 #'
 #' @examples
+#' \dontrun{
+#' #basic_visualization will ask for user input in the console, and loop without that input.
 #' basic_visualization()
+#' }
 basic_visualization <- function(){
   cat("Now we can begin with basic visualization! \n")
   cat("To visualize a basic scatterplot with ggplot 2 you need to specify three pieces of information: the data, the x axis and the y axis \n")
