@@ -61,13 +61,7 @@ The `socialsciencer` package contains the functions:
 
 We recommend that users begin with the `start_package()` function, which contains information on loading and using the package.
 
-From there, each function can be used alone, but is recommended in this order:
-
-1.  `see_data_console()`
-
-2.  `load_tidyverse()`
-
-3.  `view_data()`
+From there, each function leads to another function, which will guide the user through basic R usage.
 
 ## Contributors
 
